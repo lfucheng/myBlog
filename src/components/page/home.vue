@@ -1,18 +1,49 @@
 <template>
     <div class="home">
         <div class="layer">
-            <div class="head-img">
-                <img src="../../assets/img/0f7487a58df8f5d04c8f878e6227fb49.jpg">
+            <div class="header">
+              <div class="wrapper">
+                <span>李福成的博客</span>
+                <ul>
+                  <li>首页</li>
+                  <li>学海无涯</li>
+                  <li>我的爱好</li>
+                  <li>个人日记</li>
+                  <li>二次元</li>
+                  <li>关于我</li>
+                </ul>
+              </div>
             </div>
-            <div class="content">
-                <h2>李福成</h2>
-                <span>个人站</span>
-                <hr />
+            <div class="nav">
+                
             </div>
-            <div class="foot">
-                <p>欢迎来到我的个人网站 *^~^* </p>
-                <hr />
-                <span>| &nbsp;点我进入 &nbsp;|</span>
+            <div class="wrapper">
+              <div class="content">
+                <div class="con-left">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="con-right">
+                  <div class="search-box">
+                    
+                  </div>
+                  <div class="list-box">
+                    
+                  </div>
+                  <div class="new-box">
+                    
+                  </div>
+                  <div class="contact-box">
+                    
+                  </div>
+                </div>
+              </div>
+              
             </div>
             
         </div>
@@ -37,5 +68,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import "../../assets/css/show.css";
+@import "../../assets/css/home.css";
 </style>
