@@ -30,13 +30,14 @@
                 </div>
                 <div class="con-right">
                   <div class="search-box">
-                    
-                  </div>
-                  <div class="list-box">
-                    
+                    <input type="text" name="" class="search-txt" placeholder="请输入你需要的内容">
+                    <input type="button" name="" class="search-btn">
                   </div>
                   <div class="new-box">
-                    
+                    <div>
+                      <span class="glyphicon glyphicon-tags"></span>
+                      <h3>最新文章</h3>
+                    </div>
                   </div>
                   <div class="contact-box">
                     

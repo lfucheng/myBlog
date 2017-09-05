@@ -88,19 +88,34 @@ hr{
 }
 .home .con-right .search-box{
     width: 100%;
-    height: 74px;
     background: #fff;
     margin-bottom: 20px;
+    padding: 20px 0;
+    position: relative;
 }
-.home .con-right .list-box{
-    width: 100%;
-    height: 200px;
-    background: #fff;
-    margin-bottom: 20px;
+.home .con-right .search-box .search-txt{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #556566;
+    padding-left: 20px;
+}
+.home .con-right .search-box .search-btn{
+    position: absolute;
+    top: 20px;
+    right: 39px;
+    width: 40px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
 }
 .home .con-right .new-box{
     width: 100%;
-    height: 200px;
+    height: 600px;
     background: #fff;
     margin-bottom: 20px;
 }
