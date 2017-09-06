@@ -70,8 +70,12 @@ hr{
 .show .foot hr{
     width: 50%;
 }
+.show .foot a{
+    text-decoration: none;
+}
 .show .foot span:hover{
     cursor: pointer;
     font-size: 18px;
+    color: #fff;
     letter-spacing: 2px;
 }

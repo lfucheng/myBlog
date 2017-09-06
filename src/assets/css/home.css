@@ -71,9 +71,10 @@ hr{
 }
 .home .con-left{
     width: 680px;
-    height: 800px;
+    /*height: 800px;*/
     /*margin-right: 30px;*/
     float: left;
+
 }
 .home .con-left li{
     width: 100%;
@@ -108,19 +109,42 @@ hr{
     top: 20px;
     right: 39px;
     width: 40px;
-    height: 32px;
+    height: 30px;
     border: none;
     cursor: pointer;
     border-radius: 0 5px 5px 0;
 }
 .home .con-right .new-box{
     width: 100%;
-    height: 600px;
+    /*height: 600px;*/
     background: #fff;
     margin-bottom: 20px;
 }
+.home .con-right .con-right-title h4{
+    display: inline-block;
+    margin: 20px 0;
+}
+.home .con-right .new-box ul{
+    /*list-style: disc;*/
+    margin: 0 30px;
+    padding-bottom: 20px;
+}
+.home .con-right .new-box li{
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
 .home .con-right .contact-box{
     width: 100%;
     height: 200px;
     background: #fff;
+    
 }

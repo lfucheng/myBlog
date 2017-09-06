@@ -34,13 +34,31 @@
                     <input type="button" name="" class="search-btn">
                   </div>
                   <div class="new-box">
-                    <div>
-                      <span class="glyphicon glyphicon-tags"></span>
-                      <h3>最新文章</h3>
+                    <div class="con-right-title">
+                      <span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;
+                      <h4>最新文章</h4>
                     </div>
+                    <ul>
+                      <li>三步实现滚动条触动css动画效果现滚动条触动css动画效果</li>
+                      <li>请不要在设计这条路上徘徊啦</li>
+                      <li>一个前端的自我修养（转）</li>
+                      <li>设计的那点事</li>
+                      <li>技术真的有那么重要吗？</li>
+                      <li>学习网页制作我能干什么？</li>
+                      <li>学习网页制作我能干什么？</li>
+                      <li>学习网页制作我能干什么？</li>
+                      <li>技术真的有那么重要吗？</li>
+                      <li>学习网页制作我能干什么？</li>
+                      <li>学习网页制作我能干什么？</li>
+                      <li>学习网页制作我能干什么？</li>
+                    </ul>
                   </div>
                   <div class="contact-box">
-                    
+                    <div class="con-right-title">
+                      <span class="glyphicon glyphicon-headphones"></span>&nbsp;&nbsp;
+                      <h4>联系我</h4>
+
+                    </div>
                   </div>
                 </div>
               </div>
