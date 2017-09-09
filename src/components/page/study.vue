@@ -1,22 +1,101 @@
 <template>
     <div class="study">
-        <div class="layer">
-            <div class="header">
-              <div class="wrapper">
-                <span>李福成的博客</span>
-                <ul>
-                  <li>首页</li>
-                  <li>学海无涯</li>
-                  <li>我的爱好</li>
-                  <li>个人日记</li>
-                  <li>二次元</li>
-                  <li>关于我</li>
-                </ul>
+      <div class="header">
+        <div class="wrapper">
+          <span>李福成的博客</span>
+          <ul>
+            <li><router-link to="/home">首页</router-link></li>
+            <li><router-link to="/study">学海无涯</router-link></li>
+            <li>我的爱好</li>
+            <li>个人随笔</li>
+            <li>二次元</li>
+            <li>关于我</li>
+          </ul>
+        </div>
+      </div>
+      <div class="con-bor">
+        <div class="con">
+          <ul id='timeline'>
+            <li class='work'>
+              <!-- <input class='radio' id='work5' name='works' type='radio' checked> -->
+              <div class="relative">
+                <label>三步实现滚动条触动css动画效果</label>
+                <span class='date'>2017-06-06</span>
+                <span class='circle'></span>
               </div>
-            </div>
-            <div class="nav">
-                
-            </div>
+              <div class='content'>
+                <img src="../../assets/img/1-161211200G00-L.jpg">
+                <p>
+                  前言：看过我之前写的系列文章（Vue.js基础篇、Vue.js组件篇)，相信大家对vue.js这个前端框架有了一定的了解。想必也想把Vue急切的运用在项目中，看看它的魅力到底有多大？别急，今天我会满足大家的想法。我们一起来看看“Webpack+Vue”的开发模式相比以往老项目(Gulp+jQuery)的开发模式的魅力在哪里。前言：看过我之前写的系列文章（Vue.js基础篇、Vue.js组件篇)，相信大家对vue.js这个前端框架有了一定的了解。想必也想把Vue急切的运用在项目中，看看它的魅力到底有多大？
+                </p>
+                <a href="">阅读全文 >></a>
+              </div>
+            </li>
+            <li class='work'>
+              <!-- <input class='radio' id='work5' name='works' type='radio' checked> -->
+              <div class="relative">
+                <label>三步实现滚动条触动css动画效果</label>
+                <span class='date'>2017-06-06</span>
+                <span class='circle'></span>
+              </div>
+              <div class='content'>
+                <img src="../../assets/img/1-161211200G00-L.jpg">
+                <p>
+                  前言：看过我之前写的系列文章（Vue.js基础篇、Vue.js组件篇)，相信大家对vue.js这个前端框架有了一定的了解。想必也想把Vue急切的运用在项目中，看看它的魅力到底有多大？别急，今天我会满足大家的想法。我们一起来看看“Webpack+Vue”的开发模式相比以往老项目(Gulp+jQuery)的开发模式的魅力在哪里。前言：看过我之前写的系列文章（Vue.js基础篇、Vue.js组件篇)，相信大家对vue.js这个前端框架有了一定的了解。想必也想把Vue急切的运用在项目中，看看它的魅力到底有多大？
+                </p>
+                <a href="">阅读全文 >></a>
+              </div>
+            </li>
+            <li class='work'>
+              <!-- <input class='radio' id='work5' name='works' type='radio' checked> -->
+              <div class="relative">
+                <label>三步实现滚动条触动css动画效果</label>
+                <span class='date'>2017-06-06</span>
+                <span class='circle'></span>
+              </div>
+              <div class='content'>
+                <img src="../../assets/img/1-161211200G00-L.jpg">
+                <p>
+                  前言：看过我之前写的系列文章（Vue.js基础篇、Vue.js组件篇)，相信大家对vue.js这个前端框架有了一定的了解。想必也想把Vue急切的运用在项目中，看看它的魅力到底有多大？别急，今天我会满足大家的想法。我们一起来看看“Webpack+Vue”的开发模式相比以往老项目(Gulp+jQuery)的开发模式的魅力在哪里。前言：看过我之前写的系列文章（Vue.js基础篇、Vue.js组件篇)，相信大家对vue.js这个前端框架有了一定的了解。想必也想把Vue急切的运用在项目中，看看它的魅力到底有多大？
+                </p>
+                <a href="">阅读全文 >></a>
+              </div>
+            </li>
+            <li class='work'>
+              <!-- <input class='radio' id='work5' name='works' type='radio' checked> -->
+              <div class="relative">
+                <label>三步实现滚动条触动css动画效果</label>
+                <span class='date'>2017-06-06</span>
+                <span class='circle'></span>
+              </div>
+              <div class='content'>
+                <img src="../../assets/img/1-161211200G00-L.jpg">
+                <p>
+                  前言：看过我之前写的系列文章（Vue.js基础篇、Vue.js组件篇)，相信大家对vue.js这个前端框架有了一定的了解。想必也想把Vue急切的运用在项目中，看看它的魅力到底有多大？别急，今天我会满足大家的想法。我们一起来看看“Webpack+Vue”的开发模式相比以往老项目(Gulp+jQuery)的开发模式的魅力在哪里。前言：看过我之前写的系列文章（Vue.js基础篇、Vue.js组件篇)，相信大家对vue.js这个前端框架有了一定的了解。想必也想把Vue急切的运用在项目中，看看它的魅力到底有多大？
+                </p>
+                <a href="">阅读全文 >></a>
+              </div>
+            </li>
+            <li class='work'>
+              <!-- <input class='radio' id='work5' name='works' type='radio' checked> -->
+              <div class="relative">
+                <label>三步实现滚动条触动css动画效果</label>
+                <span class='date'>2017-06-06</span>
+                <span class='circle'></span>
+              </div>
+              <div class='content'>
+                <img src="../../assets/img/1-161211200G00-L.jpg">
+                <p>
+                  前言：看过我之前写的系列文章（Vue.js基础篇、Vue.js组件篇)，相信大家对vue.js这个前端框架有了一定的了解。想必也想把Vue急切的运用在项目中，看看它的魅力到底有多大？别急，今天我会满足大家的想法。我们一起来看看“Webpack+Vue”的开发模式相比以往老项目(Gulp+jQuery)的开发模式的魅力在哪里。前言：看过我之前写的系列文章（Vue.js基础篇、Vue.js组件篇)，相信大家对vue.js这个前端框架有了一定的了解。想必也想把Vue急切的运用在项目中，看看它的魅力到底有多大？
+                </p>
+                <a href="">阅读全文 >></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+        <!-- <div class="layer">
+            
             <div class="wrapper">
               <div class="content">
                 <h5 class="page-head">首页 > 学海无涯 > 最新文章</h5>
@@ -119,7 +198,7 @@
                 <div class="con-right">
                   <div class="search-box">
                     <input type="text" name="" class="search-txt" placeholder="请输入你需要的内容">
-                    <!-- <input type="button" name="" class="search-btn"> -->
+                    
                     <span class="glyphicon glyphicon-search search-btn"></span>
                   </div>
                   <div class="new-box">
@@ -165,7 +244,7 @@
             
             </div>
             
-        </div>
+        </div> -->
         
     </div>
 </template>
