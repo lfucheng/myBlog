@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+img{
+    border: 0;
+}
+.hobby{
+    background: url('../img/bg.jpg')no-repeat;
+    background-size: cover;  
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.hobby #wish{
+    position:relative;
+    background: url('../img/bg.jpg')no-repeat;
+    background-size: cover;  
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 655px;
+}
+.hobby #wish span{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 20px;
+    color: #000;
+    /*background: yellow;*/
+    /*height: 20px;
+    width: 20px;*/
+}
+.hobby .wish{color:black;border:5px solid #fff;}
+.hobby .wish-img{
+    max-height: 201px;
+    max-width: 220px;
+}
+.hobby .dialog{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background: rgba(0,0,0,0.6);
+    z-index: 1000;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    display: none;
+}
+.hobby .dialog img{
+    max-height: 500px;
+    max-width: 500px;
+}
