@@ -8,7 +8,7 @@
         <li><router-link to="/hobby">我的画册</router-link></li>
         <li>个人随笔</li>
         <li>二次元</li>
-        <li>关于我</li>
+        <li><router-link to="/about">关于我</router-link></li>
       </ul>
     </div>
 </div>

@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Home from '@/components/page/Home'
 import Study from '@/components/page/Study'
 import Hobby from '@/components/page/Hobby'
+import About from '@/components/page/About'
 
 Vue.use(Router)
 
@@ -24,6 +25,10 @@ export default new Router({
     {
       path:'/hobby',
       component: Hobby
+    },
+    {
+      path:'/about',
+      component: About
     }
   ]
 })
