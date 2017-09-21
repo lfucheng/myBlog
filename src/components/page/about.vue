@@ -1,6 +1,9 @@
 <template>
     <div class="about">
         <common-header></common-header>
+        <div class="content">
+            
+        </div>
     </div>
 </template>
 

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+img{
+    border: 0;
+}
+.about .content{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    background: #fff;
+}
