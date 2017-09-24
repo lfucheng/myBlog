@@ -44,13 +44,12 @@ export default {
   },
   mounted(){
     $(document).ready(function(){
-    $('#wish').wish();
-    $('.wish').draggable({
-        containment: "#wish",
-        scroll: true
+        $('#wish').wish();
+        $('.wish').draggable({
+            containment: "#wish",
+            scroll: true
+        });
     });
-    
-});
   }
 }
 </script>

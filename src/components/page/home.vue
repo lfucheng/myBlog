@@ -1,6 +1,14 @@
 <template>
     <div class="home">
+        <!-- <div class="content">
+            <div id="large-header" class="large-header">
+                <canvas id="demo-canvas"></canvas>
+                <h1 class="main-title">Connect <span class="thin">Three</span></h1>
+            </div>
+        </div> -->
+        
         <div class="layer">
+
             <div class="head-img">
                 <img src="../../assets/img/0f7487a58df8f5d04c8f878e6227fb49.jpg">
             </div>
@@ -24,7 +32,9 @@
 
 <script>
 
-// import CommonHeader from '../common/CommonHeader'
+// import TweenLite from '../../assets/js/bgjs/TweenLite.min'
+// import EasePack from '../../assets/js/bgjs/EasePack.min'
+// import Demo from '../../assets/js/bgjs/demo'
 
 export default {
   name: 'home',
@@ -33,6 +43,9 @@ export default {
     }
   },
   components:{
+    // EasePack,
+    // TweenLite,
+    // Demo
   }
 }
 </script>

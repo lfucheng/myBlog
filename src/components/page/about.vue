@@ -2,7 +2,9 @@
     <div class="about">
         <common-header></common-header>
         <div class="content">
-            
+            <div id="background" class="wall"></div>
+            <div id="midground" class="wall"></div>
+            <div id="foreground" class="wall"></div>
         </div>
     </div>
 </template>
